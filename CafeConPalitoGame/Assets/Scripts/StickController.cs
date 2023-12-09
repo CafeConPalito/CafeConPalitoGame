@@ -6,6 +6,10 @@ using UnityEngine.EventSystems;
 public class StickController : MonoBehaviour
 {
     private Transform startposition;
+    private bool ismovement = true;
+
+    [SerializeField]
+    GameManager gameManager;
 
 
     private void Start()
@@ -15,14 +19,21 @@ public class StickController : MonoBehaviour
     }
     private void OnMouseDrag()
     {
-        transform.position = GetMousePos();
+        if (ismovement)
+        {
+            transform.position = GetMousePos();
+        }
+        
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.tag == "Cup")
         {
+            ismovement = false;
             this.transform.SetParent(collision.transform);
+            gameManager.score=gameManager.score+1;
+            gameManager.cafeisready = true;
         }
     }
     private Vector2 GetMousePos()
