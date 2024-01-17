@@ -5,8 +5,8 @@
 <img src="https://github.com/TerciodeMarte/DAM/blob/main/departamento-logo.png" style="width: 30%"  />
 </div>
 
-# Juego 3D para Reto Diciembre 2023 (2ºCurso)
-Repositorio para hacer control del proyecto VAX Games para el Reto de Diciembre del 2º Curso del Ciclo de DAM (Desarrollo de Aplicaciones Multiplataforma)
+# Juego 2D para Reto Diciembre 2023 (2ºCurso)
+Repositorio para hacer control del un juego 2D para el Reto de Diciembre del 2º Curso del Ciclo de DAM (Desarrollo de Aplicaciones Multiplataforma)
 ## Integrantes
 * [Albano Díez de Paulino](https://github.com/TerciodeMarte) - Albano Díez de Paulino
 * [Carmen Barrios Fernández](https://github.com/CarmenBarrios) - Carmen Barrios Fernández
